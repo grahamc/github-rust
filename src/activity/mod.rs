@@ -170,7 +170,7 @@ impl Decodable for IssueEventType {
 #[derive(Debug, RustcDecodable)]
 pub struct IssueEventResponse {
 //    pub public: bool,
-    pub repo: Repository,
+//    pub repo: Repository,
     pub actor: Actor,
     pub org: Option<Organisation>,
     pub event: IssueEventType,
