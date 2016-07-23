@@ -169,7 +169,7 @@ impl Decodable for IssueEventType {
 /// all issue event requests found in `activity::events`.
 #[derive(Debug, RustcDecodable)]
 pub struct IssueEventResponse {
-    pub public: bool,
+//    pub public: bool,
     pub repo: Repository,
     pub actor: Actor,
     pub org: Option<Organisation>,
